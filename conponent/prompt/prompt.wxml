@@ -1,0 +1,5 @@
+<!--conponent/prompt/prompt.wxml-->
+<view class='prompt'>
+  <image src="{{ icon }}" class="prompt_icon" wx:if="{{ icon }}" />
+  <view class="prompt_title" wx:if="{{ title }}">{{ title }}</view>
+</view>

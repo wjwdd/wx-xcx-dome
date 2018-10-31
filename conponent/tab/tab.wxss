@@ -1,0 +1,56 @@
+/* conponent/tab/tab.wxss */
+
+.tab, .tab1 {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 0px 6px 0px rgba(240, 240, 240, 1);
+  z-index: 1000;
+}
+
+.tab1 {
+  width: 610rpx;
+  padding: 0 70rpx;
+}
+
+.item, .item1 {
+  padding: 23rpx 0;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: 500;
+  color: rgba(100, 100, 100, 1);
+}
+
+.item1 {
+  width: 50%;
+  text-align: center;
+  padding: 23rpx 0;
+}
+
+.item.active, .item1.active {
+  font-weight: bold;
+  color: #e43321;
+  padding-bottom: 17rpx;
+  border-bottom: 6rpx solid #e43321;
+}
+
+.tab_text {
+  display: inline-block;
+  position: relative;
+}
+
+.tab_tishi {
+  width: 16rpx;
+  height: 16rpx;
+  background: rgba(231, 71, 55, 1);
+  border-radius: 50%;
+  position: absolute;
+  top: 0rpx;
+  right: -10rpx;
+}

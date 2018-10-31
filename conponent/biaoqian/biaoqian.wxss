@@ -1,0 +1,33 @@
+/* conponent/biaoqian/biaoqian.wxss */
+
+.bq_item {
+  background: #fff;
+  padding: 25rpx 0 25rpx 28rpx;
+  border-bottom: 1rpx solid #e1e1e1;
+}
+
+.ba_text {
+  min-width:200rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(35, 35, 35, 1);
+}
+
+.bq_icon {
+  width: 40rpx;
+  margin-right: 20rpx;
+}
+
+.bq_jt {
+  width: 25rpx;
+  margin-right: 20rpx;
+}
+
+.Rname {
+  margin-right: 20rpx;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(144, 144, 144, 1);
+}

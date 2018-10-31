@@ -1,0 +1,22 @@
+/* conponent/ckgd/ckgd.wxss */
+
+.ckgd {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100rpx;
+}
+
+.ckgd text {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: bold;
+  color: rgba(165, 165, 165, 1);
+}
+
+.ckgd image {
+  width: 26rpx;
+  height: 26rpx;
+  margin-left:12rpx;
+}

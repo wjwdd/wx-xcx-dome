@@ -1,0 +1,6 @@
+<!--conponent/stepper/stepper.wxml-->
+<view class="minus-class van-stepper__minus  {{ disabled || value <= min ? 'van-stepper__minus--disabled' : '' }}" bindtap="onMinus" data-idx="{{idx}}" data-isdis="{{disabled || value <= min}}">
+</view>
+<input type='number'   class="input-class van-stepper__input  {{ disabled || disableInput ? 'van-stepper__input--disabled' : '' }}"  value="{{ value }}" disabled="{{ disabled || disableInput }}"></input>
+<view class="plus-class van-stepper__plus  {{ disabled || value>= max ? 'van-stepper__plus--disabled' : '' }}" bindtap="onPlus" data-idx="{{idx}}" data-isdis="{{disabled || value>= max}}">
+</view>

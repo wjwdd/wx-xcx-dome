@@ -1,0 +1,10 @@
+<!--conponent/model/model.wxml-->
+<view>
+  <view hidden='{{modalHidden}}' class='mask_layer' bindtap='modal_click_Hidden' catchtouchmove="ture" />
+  <view class="popup {{wzclass}} {{!modalHidden?ani:''}}" style="{{'width:'+Mwidth}}">
+    <view hidden='{{modalHidden}}'>
+      <slot></slot>
+    </view>
+
+  </view>
+</view>

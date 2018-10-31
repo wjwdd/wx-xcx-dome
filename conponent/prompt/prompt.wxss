@@ -1,0 +1,22 @@
+/* conponent/prompt/prompt.wxss */
+
+.prompt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  text-align: center;
+}
+
+.prompt_icon {
+  width: 331rpx;
+  height: 337rpx;
+}
+
+.prompt_title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #939393;
+  margin: 4rpx 0;
+}

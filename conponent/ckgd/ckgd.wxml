@@ -1,0 +1,5 @@
+<!--conponent/ckgd/ckgd.wxml-->
+<view class='ckgd'>
+  <text>查看更多</text>
+  <image mode="widthFix" src="/images/index/ckgd.png"></image>
+</view>

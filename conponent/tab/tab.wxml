@@ -1,0 +1,12 @@
+<!--conponent/tab/tab.wxml-->
+<view class="{{type=='ddtab'?'tab1':'tab'}} wflex_r_s">
+  <view class="{{type=='ddtab'?'item':'item1'}} {{current==idx?'active':''}}" bindtap="tabclick" wx:for="{{tablists}}" wx:for-index="idx" data-idx="{{idx}}" wx:key="key">
+
+    <view class='tab_text'>
+      {{item.name}}
+      <view hidden="{{!item.tishi}}" class='tab_tishi'>
+      </view>
+    </view>
+  </view>
+</view>
+<view style='height:74rpx'></view>

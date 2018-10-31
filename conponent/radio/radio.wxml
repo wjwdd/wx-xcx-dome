@@ -1,0 +1,8 @@
+<!--conponent/radio/radio.wxml-->
+
+<view class='wradio' bindtap="onClick" data-checked="{{checked}}">
+  <image wx:if="{{checked}}" class='sex_item_xzicon' mode='scaleToFill' src='{{img_src}}/xz.png'></image>
+  <view wx:else class='sex_item_wxzicon'>
+  </view>
+  <slot></slot>
+</view>

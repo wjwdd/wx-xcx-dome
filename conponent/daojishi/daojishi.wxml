@@ -1,0 +1,11 @@
+<!--conponent/daojishi/daojishi.wxml-->
+
+<view class='fjdjs wflex_r_c_end'>
+  {{text}}
+  <view hidden="{{ishideday}}">{{day+'天'}}</view>
+  <view class='sfm'>{{hour}}</view>
+  :
+  <view class='sfm'>{{minute}}</view>
+  :
+  <view class='sfm'>{{second}}</view>
+</view>

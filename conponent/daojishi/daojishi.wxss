@@ -1,0 +1,26 @@
+/* conponent/daojishi/daojishi.wxss */
+
+/* .fjdjs {
+  padding-right: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 20rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.fjdjs .sfm {
+  margin: 0 8rpx;
+  width: 35rpx;
+  line-height: 39rpx;
+  text-align: center;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-size: 20rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(231, 71, 55, 1);
+} */

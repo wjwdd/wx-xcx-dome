@@ -1,0 +1,18 @@
+<!--conponent/biaoqian/biaoqian.wxml-->
+<view class='bq_item wflex_r_s' style='border-bottom:1px solid #f0f0f0;margin:0px;'>
+  <view class='wflex_r_fs'>
+    <image wx:if="{{img}}" class='bq_icon' mode='widthFix' src='{{img}}'></image>
+    <view class='ba_text' style="{{'color:'+color}}">
+      {{name}}
+    </view>
+
+    <view>
+      <slot></slot>
+    </view>
+  </view>
+
+  <view wx:if="{{Rname}}" class='Rname'>
+    {{Rname}}
+  </view>
+  <image hidden="{{isjiant}}" class='bq_jt' mode="widthFix" src='/images/jt.png'></image>
+</view>
