@@ -1,0 +1,55 @@
+/* conponent/dialog/dialog.wxss */
+
+.quxiao{
+  width:50%;
+  font-size:36rpx;
+font-family:PingFang-SC-Medium;
+font-weight:500;
+color:rgba(86,86,86,1);
+line-height: 100rpx;
+text-align: center;
+box-sizing: border-box;
+}
+.queding{
+  color:rgba(223,61,62,1);
+}
+.cisuserinfor {
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.isuserinfor_header {
+  width: 100%;
+  height: 100rpx;
+  background: rgba(240, 240, 240, 1);
+  font-size: 32rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+ color:rgba(86,86,86,1);
+}
+
+.isuserinfor {
+  padding: 85rpx 0;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(50, 50, 50, 1);
+}
+
+.isuserinfor_btn {
+  width: 100%;
+  border-top:1px solid #E1E1E1;
+}
+
+.isuserinfor_btn button {
+  width: 100%;
+  height: 80rpx;
+  background: rgba(231, 71, 55, 1);
+  border-radius: 40rpx;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: rgba(255, 254, 254, 1);
+}

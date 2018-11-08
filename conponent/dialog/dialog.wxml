@@ -1,0 +1,22 @@
+<!--conponent/dialog/dialog.wxml-->
+<!-- 调用modal组件 -->
+
+<modal modal-hidden="{{hidden}}" Mwidth="90%" Mposition="center">
+  <view class='cisuserinfor wflex_c_c'>
+
+
+    <view class='isuserinfor_header wflex_c_c'>
+      提示
+    </view>
+    <view class='isuserinfor wflex_c_c'>
+      {{context}}
+
+    </view>
+    <view class='isuserinfor_btn wflex_r_s'>
+     <view wx:for="{{btns}}" wx:key="" wx:for-index="idx" class='quxiao' data-idx="{{idx}}" bindtap='buttonTapped'>{{item.text}}</view>
+      
+    </view>
+  </view>
+
+</modal>
+<!-- 调用modal组件 -->
